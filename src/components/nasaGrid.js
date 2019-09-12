@@ -4,11 +4,11 @@ import NasaCard from "./nasaCard"
 
 function NasaGrid(){
 
-   const [date, setDate] = useState("");
-   const [title, setTitle] = useState("");
-   const [hdurl, setHdurl] = useState("");
-   const [explanation, setDesc] = useState("");
-   const [copyright, setCredit] = useState("");
+   const [date, setDate] = useState();
+   const [title, setTitle] = useState();
+   const [hdurl, setHdurl] = useState();
+   const [explanation, setDesc] = useState();
+   const [copyright, setCredit] = useState();
     
    useEffect(() => {
         axios
